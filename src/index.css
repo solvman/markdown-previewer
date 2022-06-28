@@ -3,7 +3,6 @@
 *::after {
   box-sizing: border-box;
   margin: 0;
-  font-size: 1rem;
 }
 
 body {
@@ -62,6 +61,9 @@ main {
   overflow: auto;
 }
 
-#preview * {
-  margin: 5px;
+#preview p,
+h1,
+h2,
+h3 {
+  margin: 15px 0px 15px 0px;
 }
