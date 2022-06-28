@@ -3,7 +3,6 @@
 *::after {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
 }
 
 body {
@@ -64,5 +63,6 @@ main {
 h1,
 h2,
 h3 {
-  margin: 15px 0px 15px 0px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }

@@ -3,6 +3,7 @@ import ReactMarkdown from "react-markdown";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { materialLight } from "react-syntax-highlighter/dist/cjs/styles/prism";
 import remarkBreaks from "remark-breaks";
+import remarkGfm from "remark-gfm";
 import initialString from "./data";
 
 function App() {
@@ -47,7 +48,7 @@ function App() {
           <ReactMarkdown
             children={text}
             components={MarkdownComponents}
-            remarkPlugins={[remarkBreaks]}
+            remarkPlugins={[remarkBreaks, remarkGfm]}
           />
         </div>
       </main>
