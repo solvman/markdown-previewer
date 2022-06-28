@@ -3,6 +3,7 @@
 *::after {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 
 body {
@@ -45,16 +46,14 @@ main {
 }
 
 #editor {
-  margin-top: 80px;
-  padding: 15px;
+  padding: 90px 15px 15px 15px;
   display: block;
   width: 50%;
   height: 100vh;
 }
 
 #preview {
-  margin-top: 80px;
-  padding: 15px;
+  padding: 70px 15px 15px 15px;
   width: 50%;
   height: 100vh;
   border: 1px solid black;
