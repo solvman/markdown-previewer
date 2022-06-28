@@ -1,5 +1,6 @@
 {
   "name": "markdown-previewer",
+  "homepage": "https://solvman.github.io/markdown-previewer",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
