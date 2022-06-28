@@ -1,11 +1,13 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { materialLight } from "react-syntax-highlighter/dist/cjs/styles/prism";
 import remarkBreaks from "remark-breaks";
+import initialString from "./data";
 
 function App() {
-  const [text, setText] = useState("");
+  const [text, setText] = useState(initialString);
+
   const MarkdownComponents = {
     code({
       node,
